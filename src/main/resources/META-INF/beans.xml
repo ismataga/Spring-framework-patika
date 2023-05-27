@@ -4,4 +4,9 @@
        xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd"
        bean-discovery-mode="annotated">
 
+    <alternatives>
+        <class>
+            com.ismataga.alternatie.Patron1
+        </class>
+    </alternatives>
 </beans>

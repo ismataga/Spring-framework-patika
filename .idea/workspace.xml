@@ -9,19 +9,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8595e77d-4881-47d8-a6a7-b7cb8efeaf9b" name="Changes" comment="&quot;Spring framework&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/StudentDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/cdi/_00_scoped.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/cdi/_03_Inject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/_03_Inject.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/_04_New.xhtml" afterDir="false" />
+    <list default="true" id="8595e77d-4881-47d8-a6a7-b7cb8efeaf9b" name="Changes" comment="&quot;Scoped&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/alternatie/Calisan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/alternatie/Patron1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/alternatie/Patron2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/alternatie/PatronInterFace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/ioc_siz_di_siz/Calisan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/ioc_siz_di_siz/Patron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/ioclidi/Calisan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/ioclidi/Patron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/ioclidi/PatronInterFace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/qualifier/Calisan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/qualifier/Patron1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/qualifier/Patron2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/qualifier/PatronInterFace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/qualifier/QualifierMultiple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/qualifier3/Calisan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/qualifier3/EFazlaSecenekler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/qualifier3/Patron1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/qualifier3/Patron2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/qualifier3/Patron3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/qualifier3/Patron4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/qualifier3/PatronInterFace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ismataga/qualifier3/QualifierMultiple2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/alternative/PatronCalisan.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/iocli/PatronCalisan.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/iosiz/patroncaisan.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/qualifier/PatronCalisan.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/qualifier3/PatronCalisan.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,7 +55,9 @@
         <option value="HTML File" />
         <option value="cdi.beans_3_0" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -47,7 +74,9 @@
     <setting file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2QGVH5803UBTbTA021Z5oe954Rv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,19 +97,29 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\PatikaSpringFramework\src\main\webapp" />
+      <recent name="D:\Java\PatikaSpringFramework\src\main\java\com\ismataga\qualifier" />
+      <recent name="D:\Java\PatikaSpringFramework\src\main\java\com\ismataga\alternatie" />
+      <recent name="D:\Java\PatikaSpringFramework\src\main\java\com\ismataga\ioclidi" />
+      <recent name="D:\Java\PatikaSpringFramework\src\main\webapp\iosiz" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java\PatikaSpringFramework\src\main\webapp" />
       <recent name="D:\Java\PatikaSpringFramework\src\main\webapp\WEB-INF" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ismataga.qualifier3" />
+      <recent name="com.ismataga.qualifier" />
+      <recent name="com.ismataga.alternatie" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug._04_New.xhtml">
+  <component name="RunManager" selected="JavaScript Debug.patroncaisan.xhtml">
     <configuration name="JBoss/WildFly 26.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 26.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT" />
       <deployment>
@@ -128,8 +167,12 @@
     <configuration name="_04_New.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/_04_New.xhtml">
       <method v="2" />
     </configuration>
+    <configuration name="patroncaisan.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/iosiz/patroncaisan.xhtml">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.patroncaisan.xhtml" />
         <item itemvalue="JavaScript Debug._04_New.xhtml" />
         <item itemvalue="JavaScript Debug._03_Inject.xhtml" />
         <item itemvalue="JavaScript Debug._01_named.xhtml" />
@@ -145,7 +188,8 @@
       <option name="presentableId" value="Default" />
       <updated>1684979821074</updated>
       <workItem from="1684979822825" duration="16614000" />
-      <workItem from="1685082266964" duration="1482000" />
+      <workItem from="1685082266964" duration="11228000" />
+      <workItem from="1685149603269" duration="1760000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Spring framework&quot;">
       <created>1685005189369</created>
@@ -154,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685005189369</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;Scoped&quot;">
+      <created>1685085297631</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685085297632</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +213,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Spring framework&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Spring framework&quot;" />
+    <MESSAGE value="&quot;Scoped&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Scoped&quot;" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
